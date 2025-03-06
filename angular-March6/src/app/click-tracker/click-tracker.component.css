@@ -1,0 +1,22 @@
+section {
+  height: 200px;
+}
+
+.container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+button {
+  margin: 2em 0;
+  border: solid 2px red;
+  font-size: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+}
